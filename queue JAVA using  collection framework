@@ -1,0 +1,27 @@
+Using java collection framework===>>>>
+
+import java.util.*;
+public class QueueA{
+    public static void main(String args[]){
+        Queue<Integer>q=new ArrayDeque();
+        // add  some new element-----
+        q.add(10);
+         q.add(20);
+          q.add(30);
+          q.add(40);
+            q.add(50);
+            q.add(74674);
+            q.add(72537);
+            
+            //  remove 20 element here ----
+            q.remove(20);
+            
+            
+            //  print--
+            while(!q.isEmpty()){
+                System.out.println(q.peek());
+                q.remove();
+            }
+    }
+}
+
